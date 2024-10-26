@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+* {
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-color: #1C1C1C; color: #d3a227;
+    font-family: "Cabin", sans-serif; font-weight: 400;
+}
+header {
+    padding: 2rem;
+    background-color: #5c2e19;
+    text-align: center;
+}
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.image {
+    margin: 2rem;
+    margin-right: 0%;
+}
+footer {
+    background-color: #5c2e19;
+    padding: 2rem;
+    text-align: right;
+}
+fieldset {
+    border: 2px solid #d3a227;
+    border-radius: 3px;
+    padding: 1rem;
+}
+legend {
+    color: #c96638;
+    padding: 0 1rem;
+}
+textarea {
+    outline: #d3a227;
+    border-radius: 5px;
+    background-color: transparent;
+    border-color: #d3a227;
+    color: #c96638;
+}
+textarea::placeholder {
+    color: #c96638;
+}
+
+input[type="text"] {
+    border: 2px solid #d3a227;
+    border-radius: 3px;
+    background-color: transparent;
+}
+input[type="email"] {
+    border: 2px solid #d3a227;
+    border-radius: 3px;
+    background-color: transparent;
+}
+button {
+    background-color: #5c2e19;
+    border: none;
+    padding: 0.5px;
+    color: #d3a227;
+    cursor: pointer;
+}
